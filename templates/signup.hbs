@@ -1,0 +1,28 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    div{ display: block; position: absolute; justify-content: center;
+    text-align: center; left: 50%; top: 40%; transform: translate(-50%,-50%); }
+    input{display: flex; margin: 15px; width: 300px; height: 30px; outline:
+    none; } .btn{ text-align: center; justify-content: center; font-size: 16px;
+    font-weight: 600; background-color: blueviolet; } h2{ font-size: 40px;
+    font-style: italic; margin-bottom: 10px; }
+  </style>
+  <body>
+
+    <div>
+      <h2>Sign UP</h2>
+
+      <form action="/signup" method="post">
+        <input type="text" name="name" placeholder="Name" />
+        <input type="password" name="password" placeholder="Password" />
+        <input type="email" name="email" placeholder="Email" />
+        <input class="btn" type="submit" />
+      </form>
+    </div>
+  </body>
+</html>
